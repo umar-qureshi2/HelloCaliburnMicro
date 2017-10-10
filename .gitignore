@@ -3,3 +3,6 @@
 ################################################################################
 
 /UserFlow/.vs/UserFlow/v14
+/UserFlow/bin/Debug
+/UserFlow/obj/Debug
+/UserFlow/packages
