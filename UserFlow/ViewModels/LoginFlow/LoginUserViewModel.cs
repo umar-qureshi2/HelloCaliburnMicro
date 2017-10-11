@@ -38,7 +38,7 @@ namespace UserFlow.ViewModels.LoginFlow
 
         private bool showpassword;
 
-        public bool ShowPassword
+        public bool CanResetName
         {
             get { return showpassword; }
             set { showpassword = value; NotifyOfPropertyChange(); }

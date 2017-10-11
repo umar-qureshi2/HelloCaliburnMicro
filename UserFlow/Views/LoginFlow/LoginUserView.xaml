@@ -10,7 +10,7 @@
         <StackPanel>
             <Label>Username</Label>
             <TextBox x:Name="Username"></TextBox>
-            <CheckBox x:Name="ShowPassword" Content="show password"></CheckBox>
+            <CheckBox x:Name="CanResetName" Content="update name"></CheckBox>
             <StackPanel IsEnabled="{Binding ShowPassword}">
                 <Label>Password</Label>
                 <TextBox x:Name="Password"></TextBox>
