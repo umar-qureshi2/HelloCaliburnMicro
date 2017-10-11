@@ -9,6 +9,9 @@
         Title="{Binding WindowTitle}"
         Height="300" Width="300">
     <Grid>
-        
+        <StackPanel>
+            <ContentControl x:Name="JournalView" />
+            <ContentControl x:Name="LoginUser" />
+        </StackPanel>
     </Grid>
 </Window>
